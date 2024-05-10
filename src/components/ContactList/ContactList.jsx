@@ -8,7 +8,6 @@ const ContactList = () => {
   const filterContacts = contacts.filter((contact) =>
     contact.info.name.toLowerCase().includes(contactName.toLowerCase())
   );
-  console.log(filterContacts);
 
   return (
     <ul>
